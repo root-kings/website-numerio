@@ -1,6 +1,6 @@
-# Rainbow Creations
+# Starter Template
 
-A website for Rainbow Creations.
+A website starter template.
 
 ## Instructions
 
