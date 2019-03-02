@@ -1,6 +1,6 @@
-# maintenance-manager
+# Rainbow Creations
 
-A machine maintenance record management system
+A website for Rainbow Creations.
 
 ## Instructions
 
