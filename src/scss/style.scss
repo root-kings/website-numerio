@@ -1,0 +1,77 @@
+@media only screen and (min-width: 992px) {
+	.brand-logo {
+		margin-left: 15px;
+	}
+}
+
+
+.btn-bordered {
+	/* border-radius: 8px; 
+    overflow: hidden; */
+	box-sizing: content-box;
+	border: 1px solid #aaaaaa80;
+	margin-right: 5px;
+}
+
+a.breadcrumb::before {
+	color: currentColor;
+}
+
+#sectors {
+	padding-left: 5px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;
+}
+
+#sectors .card-panel {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+#upcoming .collection .row {
+	margin: 0;
+}
+
+#upcoming .collection .collection-item.avatar {
+	min-height: 50px;
+	padding-left: 20px;
+}
+
+
+.sharp {
+	border-radius: 0px;
+}
+
+
+
+span.tiny {
+	font-size: 0.7em;
+}
+
+.modal.bottom-sheet.modal-fixed-footer {
+	max-height: 90%;
+	height: 90%;
+}
+
+#waitoverlay {
+	position: fixed;
+	/* Sit on top of the page content */
+	display: none;
+	/* Hidden by default */
+	width: 100%;
+	/* Full width (cover the whole page) */
+	height: 100%;
+	/* Full height (cover the whole page) */
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(255, 255, 255, 0.5);
+	/* White background with opacity */
+	z-index: 1000;
+	/* Specify a stack order in case you're using a different order for other elements */
+	cursor: pointer;
+	/* Add a pointer on hover */
+}
+

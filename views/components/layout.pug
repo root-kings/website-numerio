@@ -1,0 +1,53 @@
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Rainbow Creations
+        include styles.pug
+        block styles
+
+    body
+        #waitoverlay
+            .full-height.valign-wrapper
+                .full-width.center
+                    .preloader-wrapper.big.active
+                        .spinner-layer.spinner-blue
+                            .circle-clipper.left
+                                .circle
+                            .gap-patch
+                                .circle
+                            .circle-clipper.right
+                                .circle
+                        .spinner-layer.spinner-red
+                            .circle-clipper.left
+                                .circle
+                            .gap-patch
+                                .circle
+                            .circle-clipper.right
+                                .circle
+                        .spinner-layer.spinner-yellow
+                            .circle-clipper.left
+                                .circle
+                            .gap-patch
+                                .circle
+                            .circle-clipper.right
+                                .circle
+                        .spinner-layer.spinner-green
+                            .circle-clipper.left
+                                .circle
+                            .gap-patch
+                                .circle
+                            .circle-clipper.right
+                                .circle
+
+        header
+            include navbar.pug
+
+        main
+            block content
+
+        include footer.pug
+
+        include scripts.pug
+        block scripts
