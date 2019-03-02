@@ -1,0 +1,19 @@
+{
+  "name": "website-rainbow-creations",
+  "version": "1.0.0",
+  "description": "a website for rainbow creations nagpur",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/root-kings/website-rainbow-creations.git"
+  },
+  "author": "Ankita Belani <ankitabelani@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/root-kings/website-rainbow-creations/issues"
+  },
+  "homepage": "https://github.com/root-kings/website-rainbow-creations#readme"
+}
