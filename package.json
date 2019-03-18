@@ -1,7 +1,7 @@
 {
-  "name": "website-rainbow-creations",
+  "name": "website-numerio",
   "version": "1.0.0",
-  "description": "a website for rainbow creations nagpur",
+  "description": "a website for numerio.io",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/root-kings/website-rainbow-creations.git"
+    "url": "git+https://github.com/root-kings/website-numerio.git"
   },
   "author": "Ankita Belani <ankitabelani@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/root-kings/website-rainbow-creations/issues"
+    "url": "https://github.com/root-kings/website-numerio/issues"
   },
-  "homepage": "https://github.com/root-kings/website-rainbow-creations#readme",
+  "homepage": "https://github.com/root-kings/website-numerio#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
     "cors": "^2.8.5",
