@@ -3,7 +3,24 @@ extends components/layout.pug
 block styles
 
 block content
-    h3.center Hello
+    .parallax-container(style='min-height:95vh')
+        .parallax
+            img#main-img.responsive-img(src='images/back.png', alt='')
+        
+        .container
+            img(src='images/logo.png', alt='', style='width: 120px;margin-top:80px')
+            h2.mont Numerio Advisors
+            h5(style='min-height:100px;')
+                | Where Trust is only constant
+        
+            a.waves-effect.waves-light.btn.hoverable(style='background: linear-gradient(135deg,#8f53d7,#1e83ef);')
+                | GET
+                | STARTED
+
+    
+    section.container
+        .row.white(style='padding:40px')
+            h4.black-text.rale    
+                | WE are the authorized distribution partner of Marg ERP for Vidarbha region...!
 
 block scripts
-    
