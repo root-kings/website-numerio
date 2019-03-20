@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
 	M.AutoInit()
+	AOS.init()
 })
 
 function hasClass(el, className) {
