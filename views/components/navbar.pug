@@ -1,22 +1,101 @@
-.navbar-fixed
-    nav.white.z-depth-0
-        .nav-wrapper
-            a.teal-text(data-target="slide-out" href="#").sidenav-trigger
-                i.material-icons menu
-            a.teal-text.brand-logo(href="/") Rainbow Creations
+//- .navbar-fixed.white(data-aos='upparwala', data-aos-offset='900')
+    nav.z-depth-0.ubuntu.white
+        .container
+            .nav-wrapper
+                a.white-text(data-target="slide-out" href="#").sidenav-trigger
+                    i.material-icons menu
+                a.brand-logo(href="/")
+                    img.circle.responsive-img(src="/images/yuna.jpg",width="100px")
 
-            ul.right.hide-on-med-and-down
-                li
-                    a.teal-text(href="/") Home
+                ul.right.hide-on-med-and-down
+                    li
+                        a.black-text(href="/") Home
 
-                li
-                    a.teal-text(href="/about") About
+                    li
+                        a.black-text(href="/about") About Us
+
+                    li
+                        a.black-text(href="/services") Services
+
+                    li
+                        a.black-text(href="/portfolio") Portfolio
+
+                    li
+                        a.black-text(href="/marg") Marg
+
+                    li
+                        a.black-text(href="/contact") Contact
 
 
-ul#slide-out.sidenav
+
+//- ul#slide-out.sidenav
+    li.center(style='margin-top: 40px')
+        img(src='images/dsc.png', alt='', style='max-width: 30vw')
     li
-        a(href="/") Home
-            i.material-icons.left home
+        a.blue-text(href='events.html') Events
     li
-        a(href="/about") About
-            i.material-icons.left info
+        a.blue-text(href='about.html') About Us
+    li
+        a.blue-text(href='team.html') Team
+    li
+        a.blue-text(href='contact.html') Contact
+
+
+
+
+header
+    .navbar-fixed
+        nav.white.mont(style='height:100px')
+            .nav-wrapper
+                a.black-text(data-target="slide-out" href="#").sidenav-trigger
+                    i.material-icons menu
+                a.brand-logo(href='/')
+                    img.circle.responsive-img.hide-on-med-and-down(src='/images/logo.png', width='45',style='margin:20px')
+                    img.circle.responsive-img.hide-on-med-and-up(src='/images/logo.png', width='45',style='margin:20px')
+                ul#nav-mobile.right.hide-on-med-and-down(style='margin-top:25px')
+                    li
+                        a.waves-effect.waves-light.black-text.center(href='/',style='width:120px') Home
+                    li
+                        a.waves-effect.waves-light.black-text.center(href='/',style='width:120px') Services
+                    li
+                        a.waves-effect.waves-light.black-text.center(href='/',style='width:120px') Marg
+                    li
+                        a.waves-effect.waves-light.black-text.center(href='/',style='width:120px') Career
+                    li
+                        a.waves-effect.waves-light.black-text.center(href='/',style='width:120px') Testimonials
+                    li
+                        a.waves-effect.waves-light.black-text.center(href='/',style='width:120px') Blogs
+                    li
+                        a.waves-effect.waves-light.black-text.center(href='/',style='width:120px') Contact Us
+                    li
+                        a.waves-effect.waves-light.btn.white.hoverable.black-text(style='border: 1px solid #decba4 ', href='tel:+91 1234567890')
+                            | +91 12345 67890
+                            i.material-icons.left(style='color:#decba4') call
+    ul#slide-out.sidenav.mont
+        li
+            a.waves-effect.waves-light.black-text.center(href='/') Home
+        li
+            a.waves-effect.waves-light.black-text.center(href='/') Services
+        li
+            a.waves-effect.waves-light.black-text.center(href='/') Marg
+        li
+            a.waves-effect.waves-light.black-text.center(href='/') Career
+        li
+            a.waves-effect.waves-light.black-text.center(href='/') Testimonials
+        li
+            a.waves-effect.waves-light.black-text.center(href='/') Blogs
+        li
+            a.waves-effect.waves-light.black-text.center(href='/') Contact Us
+        //- li
+            a.waves-effect.waves-light.btn.white.hoverable.black-text(style='border: 1px solid #decba4 ', href='tel:+91 1234567890')
+                | +91 12345 67890
+                i.material-icons.left(style='color:#decba4') call
+        li
+            a.waves-effect.waves-light.btn.hoverable.white-text(style='background: linear-gradient(to right, #3e5151, #decba4); ', href='tel:+91 1234567890')
+                b
+                    i.material-icons
+                        | call
+                    | +91 12345 67890
+
+
+

@@ -3,12 +3,16 @@ html(lang="en")
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         meta(http-equiv="X-UA-Compatible", content="ie=edge")
-        title Rainbow Creations
-        include styles.pug
+        title #{name}
+        link(href='https://fonts.googleapis.com/css?family=Raleway:300', rel='stylesheet')
+        link(href='https://fonts.googleapis.com/css?family=Montserrat:300', rel='stylesheet')
+        link(href='https://fonts.googleapis.com/css?family=Markazi+Text', rel='stylesheet')
+        link(href='https://fonts.googleapis.com/css?family=Ubuntu', rel='stylesheet')
+        include styles.pug 
         block styles
 
     body
-        #waitoverlay
+        //- #waitoverlay
             .full-height.valign-wrapper
                 .full-width.center
                     .preloader-wrapper.big.active
