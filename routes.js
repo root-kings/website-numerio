@@ -14,6 +14,14 @@ router.get('/marg', (req, res) => {
 	res.render('marg',{name:'Marg | Numerio'})
 })
 
+router.get('/about', (req, res) => {
+	res.render('about',{name:'About Us | Numerio'})
+})
+
+router.get('/marg', (req, res) => {
+	res.render('marg',{name:'Marg | Numerio'})
+})
+
 
 router.get('/about', (req, res) => {
 	res.render('about')
