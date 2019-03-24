@@ -18,8 +18,12 @@ router.get('/about', (req, res) => {
 	res.render('about',{name:'About Us | Numerio'})
 })
 
-router.get('/marg', (req, res) => {
-	res.render('marg',{name:'Marg | Numerio'})
+router.get('/blogs', (req, res) => {
+	res.render('blog',{name:'Blogs | Numerio'})
+})
+
+router.get('/career', (req, res) => {
+	res.render('career',{name:'Career | Numerio'})
 })
 
 
