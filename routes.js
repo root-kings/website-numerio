@@ -30,6 +30,9 @@ router.get('/testimonials', (req, res) => {
 	res.render('testimonials',{name:'Testimonials | Numerio'})
 })
 
+router.get('/services', (req, res) => {
+	res.render('services',{name:'Services | Numerio'})
+})
 
 router.get('/about', (req, res) => {
 	res.render('about')
