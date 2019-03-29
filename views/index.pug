@@ -3,19 +3,39 @@ extends components/layout.pug
 block styles
 
 block content
-    .parallax-container(style='min-height:95vh')
+    .parallax-container.hide-on-small-only(style='min-height:95vh')
         .parallax
             img#main-img.responsive-img(src='images/back.png', alt='')
         
         .container
             img(src='images/logo.png', alt='', style='width: 120px;margin-top:80px')
-            h2.mont Numerio Advisors
+            h2.mont Numerio Advisors 
+                br  
+                |   Private Limited
             p(style='min-height:100px;')
-                | Where Trust is only constant
+                | Where Trust is only Constant
         
             //- a.waves-effect.waves-light.btn.hoverable(style='  background: linear-gradient(to right, #3e5151, #decba4);')
                 | GET
                 | STARTED
+
+
+    .parallax-container.show-on-small-only.hide-on-med-and-up(style='min-height:95vh')
+        .parallax
+            img#main-img.responsive-img(src='images/backmob.png', alt='')
+        
+        .container
+            img(src='images/logo.png', alt='', style='width: 120px;margin-top:80px')
+            h4.mont Numerio Advisors
+                br
+                |   Private Limited
+            p(style='min-height:100px;')
+                | Where Trust is only Constant
+        
+            //- a.waves-effect.waves-light.btn.hoverable(style='  background: linear-gradient(to right, #3e5151, #decba4);')
+                | GET
+                | STARTED
+
 
     
     section.container
@@ -25,7 +45,7 @@ block content
             br
             br
             p.black-text.mont
-                |   Marg is a state-of-the-art inventory and accounting software offering specialised services for finance and management. It provides trade wise solutions for Retail, Distribution and Manufacturing. Marg is not restricted to accounting reports and is capable of generating many management reports which can be used effectively for making strategic growth and expansion decisions. It is one of the top 3 accounting software’s in India and hands down the most user friendly..Numerio Advisors Private Limited is authorized distribution partner of Marg ERP for Vidarbha region and will provide migration and installation services along with after sale services.
+                |   Marg is a state-of-the-art inventory and accounting software offering specialised services for finance and management. It provides trade wise solutions for Retail, Distribution and Manufacturing. Marg is not restricted to accounting reports and is capable of generating many management reports which can be used effectively for making strategic growth and expansion decisions. It is one of the top 3 accounting software’s in India and hands down the most user friendly. Numerio Advisors Private Limited is authorized distribution partner of Marg ERP for Vidarbha region and will provide migration and installation services along with after sale services.
 
 
 
@@ -33,43 +53,8 @@ block content
         h4.center.black-text.mont(style='text-transform:uppercase;margin:40px')
                 br
                 //- | Numerio with Marg
-                | Our Fields of work
+                | Services on Platter
         .row
-            .col.s12.m4.center
-                img.circle.responsive-img(src="/images/notepad.png", alt="",width="120",style='margin:20px')
-                h6.center.black-text
-                    | INCORPORATIONS & COMPANY LAW PRACTICES
-                p.center.light
-                    ul.mont(style='list-style-type:disc;')
-                        li  Designing Optimum Company Structure
-                        li  Incorporations of LLP & Companies
-                        li  Statutory Compliances
-            .col.s12.m4.center
-                img.circle.responsive-img(src="/images/startup.png", alt="",width="120",style='margin:20px')
-                h6.center.black-text
-                    | STARTUP CONSULTANCY
-                p.center
-                    ul.mont
-                        li  Incorporations of LLP & Companies
-                        li  Statutory Compliances
-                        li  Raising Funds Venture Capitalists
-                        //- li  Preparing Teasers & Pitch Books
-                        //- li  Preparing Financial Model
-
-            .col.s12.m4.center
-                img.circle.responsive-img(src="/images/project.png", alt="",width="120",style='margin:20px')
-                h6.center.black-text
-                    | PROJECT CONSULTANCY
-                p.center
-                    ul.mont
-                        li  Designing Optimum Company Structure
-                        li  Raising Term Loan or Working Capital Funding
-                        li  Preparation of Project Reports & Financial Model
-                        //- li  TEV & LIE Study
-                        //- li  Raising Equity or Strategic Partnerships
-                        //- li  Valuations & Financial Due Diligences
-                        //- li  Government Incentives
-            
             .col.s12.m6.center
                 img.circle.responsive-img(src="/images/gst.png", alt="",width="120",style='margin:20px')
                 h6.center.black-text
@@ -79,9 +64,8 @@ block content
                         li Create a Tax Efficient Business Structures
                         li Impact analysis & Price sensitivity on account of change in Tax Structure
                         li Designing the Existing Contracts
-                        //- li Designing the Value Chain
-                        //- li Filing of GST Returns
-
+                        li Designing the Value Chain
+                        li Filing of GST Returns
 
             .col.s12.m6.center
                 img.circle.responsive-img(src="/images/last.png", alt="",width="120",style='margin:20px')
@@ -92,5 +76,47 @@ block content
                         li Outsourcing Financial Accounting Activity
                         li Compiling Financial Statements
                         li Setting up Internal Control System
-                        //- li Risk Advisory Services
+                        li Risk Advisory Services
+
+        .row
+            .col.s12.m4.center
+                img.circle.responsive-img(src="/images/notepad.png", alt="",width="120",style='margin:20px')
+                h6.center.black-text
+                    | INCORPORATIONS & COMPANY LAW PRACTICES
+                p.center.light
+                    ul.mont(style='list-style-type:disc;')
+                        li  Designing Optimum Company Structure
+                        li  Incorporations of LLP & Companies
+                        li  Statutory Compliances
+
+
+            .col.s12.m4.center
+                img.circle.responsive-img(src="/images/startup.png", alt="",width="120",style='margin:20px')
+                h6.center.black-text
+                    | STARTUP CONSULTANCY
+                p.center
+                    ul.mont
+                        li  Incorporations of LLP & Companies
+                        li  Statutory Compliances
+                        li  Raising Funds Venture Capitalists
+                        li  Preparing Teasers & Pitch Books
+                        li  Preparing Financial Model
+
+            .col.s12.m4.center
+                img.circle.responsive-img(src="/images/project.png", alt="",width="120",style='margin:20px')
+                h6.center.black-text
+                    | PROJECT CONSULTANCY
+                p.center
+                    ul.mont
+                        li  Designing Optimum Company Structure
+                        li  Raising Term Loan or Working Capital Funding
+                        li  Preparation of Project Reports & Financial Model
+                        li  TEV & LIE Study
+                        li  Raising Equity or Strategic Partnerships
+                        li  Valuations & Financial Due Diligences
+                        li  Government Incentives
+            
+            
+
+            
 block scripts
