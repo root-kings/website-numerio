@@ -5,7 +5,7 @@ block styles
 block content
     .parallax-container(style='min-height:95vh')
         .parallax
-            img#main-img.responsive-img(src='images/cont  act.png', alt='')
+            img#main-img.responsive-img(src='images/contact.png', alt='')
         
         .container
             img(src='images/logo.png', alt='', style='width: 120px;margin-top:80px')
@@ -18,28 +18,30 @@ block content
 
     
     section.container
-        .row.white(style='padding:40px')
+
+        .card-panel.z-depth-3.margined-bottom-comfortable.rounded
+            .row
+                .input-field.col.s12
+                    input#first_name.validate(type='text')
+                    label(for='first_name') Name
+
+                .input-field.col.s6
+                    input#phone.validate(type='text')
+                    label(for='phone') Phone
+                
+                .input-field.col.s6
+                    input#email.validate(type='email')
+                    label(for='email') E-mail
+
+                .input-field.col.s12
+                    textarea#textarea1.materialize-textarea
+                    label(for='textarea1') Message
+
             
-            .input-field.col.s6
-                input#first_name.validate(type='text')
-                label(for='first_name') First Name
-
-            .input-field.col.s6
-                input#first_name.validate(type='text')
-                label(for='last_name') Last Name
-            
-            .input-field.col.s5
-                input#first_name.validate(type='email')
-                label(for='email') E-mail
-
-            .input-field.col.s7
-                textarea#textarea1.materialize-textarea
-                label(for='textarea1') Message
-
-        
-        .center(style='margin:40px')
-            a.waves-effect.waves-light.btn.hoverable(href='tel:+91 1234567890')(style='background:#decba4; width:200px')
-                | Send
+            .center(style='margin:40px')
+                a.waves-effect.waves-light.btn.hoverable(href='tel:+91 1234567890' style='background:#decba4; width:200px') Send
+    
+    
     section
         .row
             .col.s12.m6
