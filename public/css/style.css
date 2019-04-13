@@ -13,6 +13,16 @@
 .ubuntu{
     font-family: 'Ubuntu', sans-serif;
 }
+
+.opensans
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.abril {
+
+    font-family: 'Abril Fatface', cursive;
+}
 /* 
 [data-aos="upparwala"] nav {
     background: transparent;
