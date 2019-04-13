@@ -5,16 +5,11 @@ block styles
 block content
     section
         .row.center(style='margin-top:40px')
-            img(src="/images/logo.png", alt="", width="300")
-            p.center.mont
-                | We are
-                br
-            h5.center.mont
-                |  NUMERIO ADVISORS
+            img(src="/images/homemain.png", alt="", width="300")
             
         .container  
-            p.center.mont
-                | Numerio Advisors Private Limited is a business advisory firm located in Nagpur and Bhandara. We form an integral part of our client’s ecosystem by working hand in hand. Our approach is to understand the client’s business needs, create a suitable constitution, help raise funds to attain the optimal capital structure, and employ business analytics to aid informed decision making. Over everything else, we believe that the trust of our clients is the only constant!
+            p.mont(style='text-align:justify;padding:30px')
+                | Numerio Advisors Private Limited(Numerio Advisors) is a business advisory firm located in Nagpur and Bhandara. We form an integral part of our client’s ecosystem by working hand in hand. Our approach is to understand the client’s business needs, create a suitable constitution, help raise funds to attain the optimal capital structure, and employ business analytics to aid informed decision making. Over everything else, we believe that the trust of our clients is the only constant!
                 br
                 br
                 |    Our services include designing an optimal capital structure, fund raising through debt and equity, liaising for government subsidies, goods and service tax advisory and financial & management accounting.
@@ -24,34 +19,45 @@ block content
 
 
 
-    section(style=' background: linear-gradient(to bottom, #ffffff, #decba4);margin-bottom:0;padding:0')
-        //- h5.center.black-text.mont(style='text-transform:uppercase;margin:40px')
-            
-            | Think!!
-        .container
-            br
-            br
 
-            .row
+    .white-text(style='background: linear-gradient(135deg,#8f53d7,#1e83ef);')
+        .row(style='padding-bottom: 90px; padding-top:30px;')
+            h4.center.strong.white-text.mont(style='font-weight: 900;font-size: 45px;')
+                br
+                |  Get Relaxed!!
+            p.center.mont(style='font-size: 1.25em;') Empowering people to make smart financial decisions.
+            .container(style='padding: 0%')
                 .col.s12.m6
-                    h5.center.black-text.mont
-                        | Vision
-
-                    .container
-                        p.center.black-text.mont(style='line-height:30px')
-                            br
-                                
-                            |   To be flag bearer in financial advisory where our clients bank on our work ethics.
-                            |   Numerio Advisors aspire to achieve long term sustainable growth through prosperity of our       clients and employees.
+                    .card.white.z-depth-5.small.hoverable
+                        .card-content.black-text
+                            .center
+                                img(src="/images/vision.png", alt="", width='70')
+                            span.card-title.center.abril.truncate(style='padding: 10%;font-size: 50px') Vision
+                            .container
+                                p.center
+                                    |   To be flag bearer in financial advisory 
+                                    //- |   where our clients bank on our work ethics.
+                                    br
+                                    |   We aspire to achieve long term sustainable growth 
+                                    |   through prosperity of our       clients and employees.
                 .col.s12.m6
-                    h5.center.black-text.mont
-                        | Mission
+                    .card.white.z-depth-5.small.hoverable
+                        .card-content.black-text
+                            .center
+                                img(src="/images/mission.png", alt="", width='70')
+                            span.card-title.center.abril.truncate(style='padding: 5%;font-size: 50px') Mission
+                            .container
+                                p.center
+                                    |   We strive to be acknowledged as leader and preferred partner
+                                    //-  in helping our clients succeed in this dynamic business environment.
+                                    //- |   To attain our mission we run
+                                    | To run our business with integrity and openness, delivering optimum results with clearly defined business principles.
+                        
 
-                    .container
-                        p.center.black-text.mont(style='line-height:30px')
-                            br
-                            |   We strive to be acknowledged as leader and preferred partner in helping our clients succeed in this dynamic business environment.
-                            |   To attain our mission we run our business with integrity and openness, delivering optimum results with clearly defined business principles.
 
+    .white.center
+        img(src="/images/homemain.png", alt="", width='50%')
+        br
+        a.waves-effect.waves-light.btn(style='background:linear-gradient(270deg, #6969ff, blue);border-radius:20px;letter-spacing:3px;margin:30px') Join Us
 
 block scripts

@@ -3,123 +3,170 @@ extends components/layout.pug
 block styles
 
 block content
-    section
-        .parallax-container(style='min-height:95vh')
-            .parallax.hide-on-small-only
-                img#main-img.responsive-img(src='images/services.png', alt='', style='min-width:100%')
-            
-            .container
-                img(src='images/logo.png', alt='', style='width: 120px;margin-top:80px')
-                h2.mont.truncate Services
-                p(style='min-height:100px;')
-                    | Numerio in Support
-
-                .center.hide-on-med-and-up
-                    img#main-img.responsive-img(src='images/servicescopy.png', alt='', style='min-width:100%')
-
-    //- section.show-on-small-only(style='background-image=/images/services.png')
-        .container
-            img(src='images/logo.png', alt='', style='width: 120px;margin-top:80px')
-            h2.mont.truncate Services
-            p(style='min-height:100px;')
-                | Numerio in Support
-
-    section
-        .white
-            .row(style='margin:60px')
-                .col.s12.m4.center
-                    img.circle.responsive-img(src="/images/accsoft.jpg", alt="", width='200')
-                    h5.strong.mont.center
-                        |   Marg Accounting 
-                        br
-                        |   Software
-                    p.center.mont
-                        |   Inventory and Accounting Software
-                        br
-                        |  	Simple to use
-                        br
-                        |	Easy to implement
-                        br
-                        |	Flexible to Customize
-
-                .col.s12.m4.center
-                    img.circle.responsive-img(src="/images/accsoft.jpg", alt="", width='200')
-                    h5.strong.mont.center
-                        |   GST Advisory 
-                        br
-                        |   & Compilance
-                    p.center.mont
-                        |   Create a Tax Efficient Business Structures
-                        br
-                        |  	Impact analysis & Price sensitivity on account of change in Tax Structure
-                        br
-                        |	Designing the Existing Contracts
-                        br
-                        |	Designing the Value Chain
-                        br
-                        |  	Filing of GST Returns
-
-                .col.s12.m4.center
-                    img.circle.responsive-img(src="/images/accsoft.jpg", alt="", width='200')
-                    h5.strong.mont.center
-                        |   Financial & 
-                        br  
-                        |   Management Accounting
-                    p.center.mont
-                        |   Outsourcing Financial Accounting Activity
-                        br
-                        |  	Compiling Financial Statements
-                        br
-                        |	Setting up Internal Control System
-                        br
-                        |	Risk Advisory Services
-
-
-            .row
-                .col.s12.m4.center
-                    img.circle.responsive-img(src="/images/accsoft.jpg", alt="", width='200')
-                    h5.strong.mont.center
-                        |   Incorporations & 
-                        br  
-                        |   Company Law Practices
-                    p.center.mont
-                        |   IDesigning Optimum Company Structure
-                        br
-                        | 	Incorporations of LLP & Companies
-                        br
-                        |		Statutory Compliances
+    section(style='height:80vh')
+        .row(style='min-height: 60vh;')
+            div(style='margin-top: 80px;')
+                .col.s12.m4
+                    .container
+                        i.fas.fa-users(style='color: #00d09c;font-size: 50px')
+                        h2.light
+                            | Services on Platter
                         
+                        br
+                        a.waves-effect.waves-light.btn.hoverable(style='background: linear-gradient(135deg,#8f53d7,#1e83ef);border-radius:30px')
+                            | VIEW SERVICES
+                .col.s12.m8.center
+                    img(src='images/641.png', alt='', width='600', style='margin-top: 10px;max-width: 80%')
 
-                .col.s12.m4.center
-                    img.circle.responsive-img(src="/images/accsoft.jpg", alt="", width='200')
-                    h5.strong.mont.center
-                        | Start-up
-                        br
-                        | Consultancy
-                    p.center.mont
-                        |   Incorporations of LLP & Companies
-                        br
-                        |  	Statutory Compliances
-                        br
-                        |	Raising Funds through Angle Investors or Venture Capitalists
-                        br
-                        |	Preparing Teasers & Pitch Books
-                        br
-                        |  	Preparing Financial Model & Information Memorandum
 
-                .col.s12.m4.center
-                    img.circle.responsive-img(src="/images/accsoft.jpg", alt="", width='200')
-                    h5.strong.mont.center
-                        |   Project 
-                        br  
-                        |   Consultancy
-                    p.center.mont
-                        |   	Designing Optimum Company Structure
-                        br
-                        |  	Raising Term Loan or Working Capital Funding
-                        br
-                        |	Preparation of Project Reports & Financial Model
-                        br
-                        |	Flexible to Customize
+    section(style='background:#625eeb')
+        .center
+            img(src="/images/whitelogo.png", alt="", width='60%',style="margin-top:30px")
+        .row.white-text(style='margin:50px')
+            .col.s12.m4.center
+
+                .card.flexi-card.medium.hoverable.z-depth-5
+                    .card-image
+                        img(src='images/red.png', width='600')
+                        span.card-title 
+                            h5.strong.mont.center
+                                |   Marg Accounting 
+                                br
+                                |   Software
+
+                    .card-content
+                        p.center.mont.black-text
+                            |   Inventory and Accounting Software
+                            br
+                            |  	Simple to use
+                            br
+                            |	Easy to implement
+                            br
+                            |	Flexible to Customize
+                
+                
+                //- img.circle.responsive-img(src="/images/accsoft.jpg", alt="", width='200')
+                
+
+            .col.s12.m4.center
+                .card.flexi-card.medium.hoverable.z-depth-5
+                    .card-image
+                        img(src='images/dblue.png', width='600')
+                        span.card-title 
+                            h5.strong.mont.center
+                                |   Project Loans &
+                                br  
+                                |   Subsidy Consultancy
+
+                    .card-content
+                        p.center.mont.black-text
+                            |   	Designing Optimum Company Structure
+                            br
+                            |  	Raising Term Loan or Working Capital Funding
+                            br
+                            |	Preparation of Project Reports & Financial Model
+                            br
+                            |	Flexible to Customize
+
+
+
+
+            .col.s12.m4.center  
+                .card.flexi-card.medium.hoverable.z-depth-5
+                    .card-image
+                        img(src='images/blue.png', width='600')
+                        span.card-title 
+                            h5.strong.mont.center
+                                |   GST Advisory 
+                                br
+                                |   & Compilance
+
+                    .card-content
+                        p.center.mont.black-text
+                            |   Create a Tax Efficient Business Structures
+                            br
+                            |  	Impact analysis & Price sensitivity on account of change in Tax Structure
+                            br
+                            |	Designing the Existing Contracts
+                            br
+                            |	Designing the Value Chain
+                            br
+                            |  	Filing of GST Returns
+  
+            .col.s12.m4.center
+                .card.flexi-card.medium.hoverable.z-depth-5
+                    .card-image
+                        img(src='images/pink.png', width='600')
+                        span.card-title 
+                            h5.strong.mont.center
+                                |   Financial & 
+                                br  
+                                |   Management Accounting
+
+                    .card-content
+                        p.center.mont.black-text
+                            |   Outsourcing Financial Accounting Activity
+                            br
+                            |  	Compiling Financial Statements
+                            br
+                            |	Setting up Internal Control System
+                            br
+                            |	Risk Advisory Services
+
+
+
+            .col.s12.m4.center
+                .card.flexi-card.medium.hoverable.z-depth-5
+                    .card-image
+                        img(src='images/green.png', width='600')
+                        span.card-title 
+                            h5.strong.mont.center
+                                |   Incorporations & 
+                                br  
+                                |   Company Law Practices
+
+                    .card-content
+                        p.center.mont.black-text
+                            |   IDesigning Optimum Company Structure
+                            br
+                            | 	Incorporations of LLP & Companies
+                            br
+                            |		Statutory Compliances
+
+            .col.s12.m4.center
+                .card.flexi-card.medium.hoverable.z-depth-5
+                    .card-image
+                        img(src='images/orange.png', width='600')
+                        span.card-title 
+                            h5.strong.mont.center
+                                | Start-up
+                                br
+                                | Consultancy
+
+                    .card-content
+                        p.center.mont.black-text
+                            |   Incorporations of LLP & Companies
+                            br
+                            |  	Statutory Compliances
+                            br
+                            |	Raising Funds through Angle Investors or Venture Capitalists
+                            br
+                            |	Preparing Teasers & Pitch Books
+                            br
+                            |  	Preparing Financial Model & Information Memorandum
+
+
+    section.white
+        .center
+            img(src="/images/homemain.png", alt="", width='30%')
+            br
+            a.waves-effect.waves-light.btn.hoverable(style='background: linear-gradient(135deg,#8f53d7,#1e83ef);border-radius:30px;margin:20px')
+                            | BOOK APPOINTMENT
+        
+
+                            
+            
+                    
+
 
 block scripts
