@@ -5,11 +5,11 @@ footer.page-footer(style='background:#2c7dec')
     //- .container.center(style='padding:30px')
         img(src="/images/logo.png", alt="", width="40")
         h4.header.light.white-text.center.rale(style='text-transform:uppercase')  Numerio Advisors Private Limited
-    .row.rale(style='margin-top:30px')
+    .row.rale(style='margin:0px')
         .col.s12.m3.center
-            h5.white-text(style='text-transform:uppercase')   Our Company
+            h5.white-text(style='text-transform:uppercase;margin:0')   Our Company
             br
-            p.white-text.mont
+            p.white-text.mont(style="margin:0")
                 a.white-text(href='/') Home
                 br 
                 a.white-text(href='/') About Us
@@ -28,10 +28,10 @@ footer.page-footer(style='background:#2c7dec')
 
                 
         .col.s12.m3.center
-            h5.white-text(style='text-transform:uppercase')   Services
+            h5.white-text(style='text-transform:uppercase;margin:0')   Services
             br
-            p.white-text.mont
-                a.white-text(href='/services') Marg Distribution
+            p.white-text.mont(style="margin:0")
+                a.white-text(href='/services') Marg ERP
                 br 
                 a.white-text(href='/services') Project Loans & Subsidy Consultancy
                 br
@@ -45,19 +45,35 @@ footer.page-footer(style='background:#2c7dec')
                 
                 
         .col.s12.m3.center
-            h5.white-text(style='text-transform:uppercase')  Corporate Office
+            h5.white-text(style='text-transform:uppercase;margin:0')  Corporate Office
             br
-            p.mont.center.white-text(href='/') D2, Kanchan Kiran Apartments, Farmland 8A, Behind Big Bazaar, Ramdaspeth,     Nagpur - 440010
+            p.mont.center.white-text(href='/',style="margin:0") D2, Kanchan Kiran Apartments, Farmland 8A, Behind Big Bazaar, Ramdaspeth,     Nagpur - 440010
                 br
-                |    0712-6603701
+                |    0712 - 6603701
         .col.s12.m3.center
-            h5.white-text(style='text-transform:uppercase')    Branch Office
+            h5.white-text(style='text-transform:uppercase;margin:0')    Branch Office
             br
-            p.mont.center.white-text(href='/') First Floor, Opposite Sarvagya Fashion, Gandhi Chowk, Main Road,             br
+            p.mont.center.white-text(href='/',style='margin:0px;') First Floor, Opposite Sarvagya Fashion, Gandhi Chowk, Main Road,            
+                br
                 |   Bhandara-441904
                 br
-                |   07184-251601
-    .footer-copyright
+                |   07184 - 251601
+            .container
+                .white(style="border-radius:30px")
+                    p.center.mont(style="color:#2c7dec")
+                        br
+                        | SOCIAL LINKS
+                    .container
+                        .row(style="margin:20px")
+                            .col.s6
+                                i.fab.fa-facebook(style='color:#2c7dec;font-size:20px')
+                            .col.s6
+                                i.fab.fa-twitter-square(style='color:#2c7dec;font-size:20px')
+                            
+
+                        .row(style="height:8px;")
+
+    .footer-copyright(style="padding:0px")
 
         .container
             .row
@@ -66,5 +82,5 @@ footer.page-footer(style='background:#2c7dec')
                 .col.s12.m4.center.mont
                     a.white-text(href="http://root-kings.github.io") Designed by R00t
                 .col.s12.m4.center.mont
-                    a.white-text(href="tel:+918888132785") 888 813 2785
+                    a.white-text(href="tel:+91 70200 82190") +91 70200 82190
                 
