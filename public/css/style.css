@@ -10,19 +10,18 @@
     font-family: 'Markazi Text', serif;
 }
 
-.ubuntu{
+.ubuntu {
     font-family: 'Ubuntu', sans-serif;
 }
 
-.opensans
-{
+.opensans {
     font-family: 'Open Sans', sans-serif;
 }
 
 .abril {
-
     font-family: 'Abril Fatface', cursive;
 }
+
 /* 
 [data-aos="upparwala"] nav {
     background: transparent;
@@ -32,4 +31,5 @@
 
 [data-aos="upparwala"].aos-animate nav {
     background: #21cce7; */
+
 /* } */
